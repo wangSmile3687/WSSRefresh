@@ -1,0 +1,6 @@
+framework module WSSRefresh {
+  umbrella header "WSSRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

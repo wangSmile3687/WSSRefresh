@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03263EA544B4DF38A24F11BA88CF33BC /* Pods-WSSRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F6072A282030185FF20F6081D5CF33 /* Pods-WSSRefresh_Tests-dummy.m */; };
+		033B974A170865B34C4147BA6997BDDD /* Pods-WSSRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3759CCC4BF623CEDBA9E8F485BE23EA6 /* Pods-WSSRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		035F73FBB0DF0DC871202168E053E967 /* WSSRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5283C3CAC34139615132308490A7064 /* WSSRefreshBackFooter.m */; };
+		0500864DFE54AAD05567A0C79F56750F /* WSSRefreshHorizontalAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D0EDC79F9D8DB8A80A65B6512A7399 /* WSSRefreshHorizontalAutoFooter.m */; };
+		0A5BA49A6C3C03DE4C4E9C52A72EA378 /* WSSRefreshBackFooterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D56797D50D21A37BF92585CAE52B7 /* WSSRefreshBackFooterControl.m */; };
+		179CB8DA0AC3E8F2F2F37D41D3CF5FB8 /* WSSRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F2D659B3BF37639F391C924F6A4008 /* WSSRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		194949EF90678362A1DDCF2110888791 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		28FED9BC6F2421773E7925AF4688A460 /* WSSRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF1D99537ED7648080FB7014CC21A8D /* WSSRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D05A8FF76C1B25FE045F6A2F75E3930 /* WSSRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C1416CF4C7ADF7881C335304F60D5A /* WSSRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43DDAC02F5749D6C71E4B61418355E20 /* Pods-WSSRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CF99D51A73C6F5742B41886F2D2F53 /* Pods-WSSRefresh_Example-dummy.m */; };
+		4CB0C0449FF2D614EACD7477422D69BA /* HorizontalRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB5F8374B92B8BF87D82B32027CBC088 /* HorizontalRefresh.bundle */; };
+		51338AC8CB96805BCBF14954CE1E62F2 /* WSSRefreshHorizontalAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DC6314450B765AB91815CA0EE3E789 /* WSSRefreshHorizontalAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D368A3450E154ADC6FBE3B56C31FAF0 /* WSSRefreshHeaderControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A9839E6B18B1E703D9181769B173ED82 /* WSSRefreshHeaderControl.m */; };
+		5F777039206A559BE8F78D6A6B8B8A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6D2BD6C7AAB974233FFFC945E4171878 /* WSSRefreshBackFooterControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 107C23239C85D30B1D29ECAD7C843D2B /* WSSRefreshBackFooterControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F107BA3DD9F32077FBD849B28E16F33 /* WSSHorizontalRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FB6FFAE9DED5594DB5FBC344DBC518C /* WSSHorizontalRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71B09BA61BEFB50E30021530E4F98613 /* WSSRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6236DE3573B36262979BA5356E92038 /* WSSRefreshAutoFooter.m */; };
+		7C80F7476F45BAEA0B5DA6EF3D69C47E /* UIScrollView+WSSRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBC96C5CE10B859E9DB4643AA16A5C0 /* UIScrollView+WSSRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F21B5DFA15B43FBDF48EEADFC76E158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		853A454D80000C011FF8A33059604F6C /* Pods-WSSRefresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A3561CCB638DE4078EC2675D6530BB /* Pods-WSSRefresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85BC197197EFBB8D2794C186B1FCDC4A /* WSSRefreshHorizontalBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 94354C66FAC416E7AF1F113CA8F2B23C /* WSSRefreshHorizontalBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AF06B6C2AD48A04D00DB56A70BC10A2 /* WSSRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC8B78336E1FBE90136B8E2930B67F1 /* WSSRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF8E3630F4F62F184263AC405B5A351A /* UIScrollView+WSSRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A8C67B775DB93C916F5A1B16CF67A /* UIScrollView+WSSRefresh.m */; };
+		B0CCE2B70B2BD95861BDFB184FDA1651 /* WSSRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69DC54AE37F53D9BFA82CC9B1F3CEB /* WSSRefreshHeader.m */; };
+		B5A4086A2D72292504DEA7AE360BEE4A /* WSSRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAC4D15D536D279CC36BFF110ABE04C /* WSSRefreshConst.m */; };
+		B6C976A601DBC2DDCF4E2BE0E3749EF0 /* WSSRefreshCategoties.h in Headers */ = {isa = PBXBuildFile; fileRef = 42331FBA60D208B9A1437F22F6ABEAB7 /* WSSRefreshCategoties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9946F007EAD37011D3D492CC03506A9 /* WSSRefreshAutoFooterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF9D05713116E223710CDC21245E05 /* WSSRefreshAutoFooterControl.m */; };
+		BB0D135FF866BF6E03898415C34ACB6E /* WSSRefreshHorizontalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8CBA3B1A28FCE1D968F64B610ACDA0 /* WSSRefreshHorizontalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB67EFDDAECC33ECB12B5C939C9A745E /* WSSRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 75CA5B2537E161C35F31AF963219DAB0 /* WSSRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF630AB303EF893F434770D16209921E /* WSSRefreshHorizontalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FECC2DDB16782602F58852351DAF06 /* WSSRefreshHorizontalHeader.m */; };
+		C1C1B8DA26C0316FB0A52268908B4E62 /* WSSRefreshHeaderControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 66440174C1903ECB6DAA0D654C41FD2B /* WSSRefreshHeaderControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C341D010095F4926F7B6956A484FFEC6 /* WSSRefreshAutoFooterControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 296C45E342B66B6D150DE490A269CA60 /* WSSRefreshAutoFooterControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8BB2F8947D05DF9139864D848312EA2 /* VerticalRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E2A65CBD6659DCD129EC871E4CA17D8 /* VerticalRefresh.bundle */; };
+		CD6F1C44EFADD8E4DE41E42195FA6FF1 /* WSSRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FB814F106D25DBB17FA587C5EB0058 /* WSSRefreshControl.m */; };
+		D6DE072413BF8528414F03D4DD56EB9A /* WSSRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E90612AA7E06B8EF511487D9D4CC4006 /* WSSRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFBF44F97E858247D9590D7208D6481E /* WSSRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF16B70583C3104BC55EA169E878D5B /* WSSRefresh-dummy.m */; };
+		E313F29CCAD21A822D5925EE03120C52 /* WSSRefreshCategoties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E5DF831BA252BB280FC9C245CCD4F /* WSSRefreshCategoties.m */; };
+		E451C773ED8D7578EC16050F6B00D2E1 /* WSSRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A469559596D6D4CF505C8F9B2401E1 /* WSSRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F48534E7D62822B610BF21B872CF1289 /* WSSVerticalRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1047C460F867703C24E2E336B04FCE /* WSSVerticalRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC6B259F7FCCC7FCD859305D93D2021E /* WSSRefreshHorizontalBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAC008173B3C4E56C411E9A3D548371 /* WSSRefreshHorizontalBackFooter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B2C5C8F304D50A2E83088C3D3A03CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AB66D87758645B34859919D510A969;
+			remoteInfo = "Pods-WSSRefresh_Example";
+		};
+		FA4E2B794983057481596004583C89C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 712D4A726E4BA70AF342CFF4B5E2F1CA;
+			remoteInfo = WSSRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AAC4D15D536D279CC36BFF110ABE04C /* WSSRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSRefreshConst.m; path = WSSRefresh/Classes/Base/WSSRefreshConst.m; sourceTree = "<group>"; };
+		107C23239C85D30B1D29ECAD7C843D2B /* WSSRefreshBackFooterControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefreshBackFooterControl.h; path = WSSRefresh/Classes/Base/WSSRefreshBackFooterControl.h; sourceTree = "<group>"; };
+		122BC233E23BC551979484AB06794D12 /* WSSRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WSSRefresh.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		12AA50D8EB81FA3864CA15A7ABBA55A6 /* Pods-WSSRefresh_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSSRefresh_Example-Info.plist"; sourceTree = "<group>"; };
+		296C45E342B66B6D150DE490A269CA60 /* WSSRefreshAutoFooterControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefreshAutoFooterControl.h; path = WSSRefresh/Classes/Base/WSSRefreshAutoFooterControl.h; sourceTree = "<group>"; };
+		2A8E5DF831BA252BB280FC9C245CCD4F /* WSSRefreshCategoties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSRefreshCategoties.m; path = WSSRefresh/Classes/Base/WSSRefreshCategoties.m; sourceTree = "<group>"; };
+		2B9A8C67B775DB93C916F5A1B16CF67A /* UIScrollView+WSSRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+WSSRefresh.m"; path = "WSSRefresh/Classes/Base/UIScrollView+WSSRefresh.m"; sourceTree = "<group>"; };
+		2E0560178A143CD8CE5C7309EFF46049 /* Pods_WSSRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WSSRefresh_Example.framework; path = "Pods-WSSRefresh_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3928E7719B25D0714CC10F9B6FBD85 /* Pods_WSSRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WSSRefresh_Tests.framework; path = "Pods-WSSRefresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3759CCC4BF623CEDBA9E8F485BE23EA6 /* Pods-WSSRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSSRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
+		394DA0820A24E175F386F50165A50D62 /* Pods-WSSRefresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSSRefresh_Example.modulemap"; sourceTree = "<group>"; };
+		3BB12637C233103ABF583DB9373C4E62 /* Pods-WSSRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSSRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C3869651ED8158C02B62540273BFA39 /* WSSRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WSSRefresh.framework; path = WSSRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F6072A282030185FF20F6081D5CF33 /* Pods-WSSRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSSRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
+		42331FBA60D208B9A1437F22F6ABEAB7 /* WSSRefreshCategoties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefreshCategoties.h; path = WSSRefresh/Classes/Base/WSSRefreshCategoties.h; sourceTree = "<group>"; };
+		46C1416CF4C7ADF7881C335304F60D5A /* WSSRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefreshConst.h; path = WSSRefresh/Classes/Base/WSSRefreshConst.h; sourceTree = "<group>"; };
+		4CBC96C5CE10B859E9DB4643AA16A5C0 /* UIScrollView+WSSRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+WSSRefresh.h"; path = "WSSRefresh/Classes/Base/UIScrollView+WSSRefresh.h"; sourceTree = "<group>"; };
+		5FB6FFAE9DED5594DB5FBC344DBC518C /* WSSHorizontalRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSHorizontalRefresh.h; path = WSSRefresh/Classes/HorizontalRefresh/WSSHorizontalRefresh.h; sourceTree = "<group>"; };
+		6619D9664BE659DF52F678AEAADA5633 /* WSSRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSSRefresh.xcconfig; sourceTree = "<group>"; };
+		66440174C1903ECB6DAA0D654C41FD2B /* WSSRefreshHeaderControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefreshHeaderControl.h; path = WSSRefresh/Classes/Base/WSSRefreshHeaderControl.h; sourceTree = "<group>"; };
+		70FECC2DDB16782602F58852351DAF06 /* WSSRefreshHorizontalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSRefreshHorizontalHeader.m; path = WSSRefresh/Classes/HorizontalRefresh/WSSRefreshHorizontalHeader.m; sourceTree = "<group>"; };
+		74CF99D51A73C6F5742B41886F2D2F53 /* Pods-WSSRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSSRefresh_Example-dummy.m"; sourceTree = "<group>"; };
+		75CA5B2537E161C35F31AF963219DAB0 /* WSSRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefresh.h; path = WSSRefresh/Classes/Base/WSSRefresh.h; sourceTree = "<group>"; };
+		760F6A3940CE27ED589DE4B22803429A /* Pods-WSSRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSSRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E2A65CBD6659DCD129EC871E4CA17D8 /* VerticalRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = VerticalRefresh.bundle; path = WSSRefresh/VerticalRefresh.bundle; sourceTree = "<group>"; };
+		847336D12FC08977B59F3CCE0E86983F /* WSSRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WSSRefresh-Info.plist"; sourceTree = "<group>"; };
+		8849953297D456919D08069E9056DDD3 /* WSSRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WSSRefresh.modulemap; sourceTree = "<group>"; };
+		8C4D56797D50D21A37BF92585CAE52B7 /* WSSRefreshBackFooterControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSRefreshBackFooterControl.m; path = WSSRefresh/Classes/Base/WSSRefreshBackFooterControl.m; sourceTree = "<group>"; };
+		8CC8B78336E1FBE90136B8E2930B67F1 /* WSSRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSSRefresh-umbrella.h"; sourceTree = "<group>"; };
+		8D0EB133574C09C0498675C1B206418E /* Pods-WSSRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSSRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
+		94354C66FAC416E7AF1F113CA8F2B23C /* WSSRefreshHorizontalBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefreshHorizontalBackFooter.h; path = WSSRefresh/Classes/HorizontalRefresh/WSSRefreshHorizontalBackFooter.h; sourceTree = "<group>"; };
+		98A3561CCB638DE4078EC2675D6530BB /* Pods-WSSRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSSRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
+		9A7553059B6FADD49690A051F95EFC99 /* Pods-WSSRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSSRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B1047C460F867703C24E2E336B04FCE /* WSSVerticalRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSVerticalRefresh.h; path = WSSRefresh/Classes/VerticalRefresh/WSSVerticalRefresh.h; sourceTree = "<group>"; };
+		9BBF9D05713116E223710CDC21245E05 /* WSSRefreshAutoFooterControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSRefreshAutoFooterControl.m; path = WSSRefresh/Classes/Base/WSSRefreshAutoFooterControl.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF16B70583C3104BC55EA169E878D5B /* WSSRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSSRefresh-dummy.m"; sourceTree = "<group>"; };
+		A2D0EDC79F9D8DB8A80A65B6512A7399 /* WSSRefreshHorizontalAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSRefreshHorizontalAutoFooter.m; path = WSSRefresh/Classes/HorizontalRefresh/WSSRefreshHorizontalAutoFooter.m; sourceTree = "<group>"; };
+		A9839E6B18B1E703D9181769B173ED82 /* WSSRefreshHeaderControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSRefreshHeaderControl.m; path = WSSRefresh/Classes/Base/WSSRefreshHeaderControl.m; sourceTree = "<group>"; };
+		AFC87C49BBE56E6734A2BCAB8A1F7E0C /* Pods-WSSRefresh_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSSRefresh_Tests-Info.plist"; sourceTree = "<group>"; };
+		B500F5F51D5A597F39519F2FE9C70225 /* Pods-WSSRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSSRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B69812FEAEE812AAFAB4FD047BB6BB4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B9F2D659B3BF37639F391C924F6A4008 /* WSSRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefreshHeader.h; path = WSSRefresh/Classes/VerticalRefresh/WSSRefreshHeader.h; sourceTree = "<group>"; };
+		BC69DC54AE37F53D9BFA82CC9B1F3CEB /* WSSRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSRefreshHeader.m; path = WSSRefresh/Classes/VerticalRefresh/WSSRefreshHeader.m; sourceTree = "<group>"; };
+		BD269A4535D80DDF1B4459F170356853 /* Pods-WSSRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WSSRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C01FAA7C33E76B5ECC9ED2AC7BD8FEA8 /* WSSRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSSRefresh-prefix.pch"; sourceTree = "<group>"; };
+		C1DF8FE5D89387B756F6986F83444BAF /* Pods-WSSRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSSRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5283C3CAC34139615132308490A7064 /* WSSRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSRefreshBackFooter.m; path = WSSRefresh/Classes/VerticalRefresh/WSSRefreshBackFooter.m; sourceTree = "<group>"; };
+		C79459E7BF1D15E1E31DF8BC42B78AD2 /* Pods-WSSRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSSRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C9A469559596D6D4CF505C8F9B2401E1 /* WSSRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefreshBackFooter.h; path = WSSRefresh/Classes/VerticalRefresh/WSSRefreshBackFooter.h; sourceTree = "<group>"; };
+		CBF1D99537ED7648080FB7014CC21A8D /* WSSRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefreshAutoFooter.h; path = WSSRefresh/Classes/VerticalRefresh/WSSRefreshAutoFooter.h; sourceTree = "<group>"; };
+		D2FB814F106D25DBB17FA587C5EB0058 /* WSSRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSRefreshControl.m; path = WSSRefresh/Classes/Base/WSSRefreshControl.m; sourceTree = "<group>"; };
+		D6236DE3573B36262979BA5356E92038 /* WSSRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSRefreshAutoFooter.m; path = WSSRefresh/Classes/VerticalRefresh/WSSRefreshAutoFooter.m; sourceTree = "<group>"; };
+		E90612AA7E06B8EF511487D9D4CC4006 /* WSSRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefreshControl.h; path = WSSRefresh/Classes/Base/WSSRefreshControl.h; sourceTree = "<group>"; };
+		EB5F8374B92B8BF87D82B32027CBC088 /* HorizontalRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HorizontalRefresh.bundle; path = WSSRefresh/HorizontalRefresh.bundle; sourceTree = "<group>"; };
+		EBAC008173B3C4E56C411E9A3D548371 /* WSSRefreshHorizontalBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSRefreshHorizontalBackFooter.m; path = WSSRefresh/Classes/HorizontalRefresh/WSSRefreshHorizontalBackFooter.m; sourceTree = "<group>"; };
+		EE155A9CE126AA9920A436BF8E02D295 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F26325B273EB579CD5585BA5DD076B12 /* Pods-WSSRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSSRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5F39EC6649DFFC3A51CE4AD6CAEB187 /* Pods-WSSRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSSRefresh_Tests.modulemap"; sourceTree = "<group>"; };
+		F8DC6314450B765AB91815CA0EE3E789 /* WSSRefreshHorizontalAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefreshHorizontalAutoFooter.h; path = WSSRefresh/Classes/HorizontalRefresh/WSSRefreshHorizontalAutoFooter.h; sourceTree = "<group>"; };
+		FF8CBA3B1A28FCE1D968F64B610ACDA0 /* WSSRefreshHorizontalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSRefreshHorizontalHeader.h; path = WSSRefresh/Classes/HorizontalRefresh/WSSRefreshHorizontalHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C6885A0C0C9EEA6FD13D1FDB0E653F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194949EF90678362A1DDCF2110888791 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2E5AA0775E6327AA584EFA90ABFE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F777039206A559BE8F78D6A6B8B8A70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61BA07D75392448979348F6F8B81A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F21B5DFA15B43FBDF48EEADFC76E158 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279CF41F3E6C6A2175107B6D2BE03FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E0560178A143CD8CE5C7309EFF46049 /* Pods_WSSRefresh_Example.framework */,
+				2E3928E7719B25D0714CC10F9B6FBD85 /* Pods_WSSRefresh_Tests.framework */,
+				3C3869651ED8158C02B62540273BFA39 /* WSSRefresh.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45026F27DFB6E11EBA71A1961DD351D4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				979653F60599195209374AAAA3D6B50F /* Pods-WSSRefresh_Example */,
+				C5BA8C70E0745EC513C90829FFD7B8B3 /* Pods-WSSRefresh_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		512B6657BFC49A0ADA100A848BAA14F0 /* WSSRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				F9D0183D4FA223EEAAAA2246CE4A8395 /* Base */,
+				ECAFF48F3C7224C8608F1262F522AE1B /* HorizontalRefresh */,
+				5A83523E56DF77EC72C07597C4050466 /* Pod */,
+				A897018AE322F98B61F23287E505B93E /* Support Files */,
+				F51429750378D753318DEAE02C1C5FB1 /* VerticalRefresh */,
+			);
+			name = WSSRefresh;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5A83523E56DF77EC72C07597C4050466 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B69812FEAEE812AAFAB4FD047BB6BB4F /* LICENSE */,
+				EE155A9CE126AA9920A436BF8E02D295 /* README.md */,
+				122BC233E23BC551979484AB06794D12 /* WSSRefresh.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7329F029BDC3864A15A2B1A856B15F49 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				512B6657BFC49A0ADA100A848BAA14F0 /* WSSRefresh */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		979653F60599195209374AAAA3D6B50F /* Pods-WSSRefresh_Example */ = {
+			isa = PBXGroup;
+			children = (
+				394DA0820A24E175F386F50165A50D62 /* Pods-WSSRefresh_Example.modulemap */,
+				9A7553059B6FADD49690A051F95EFC99 /* Pods-WSSRefresh_Example-acknowledgements.markdown */,
+				F26325B273EB579CD5585BA5DD076B12 /* Pods-WSSRefresh_Example-acknowledgements.plist */,
+				74CF99D51A73C6F5742B41886F2D2F53 /* Pods-WSSRefresh_Example-dummy.m */,
+				BD269A4535D80DDF1B4459F170356853 /* Pods-WSSRefresh_Example-frameworks.sh */,
+				12AA50D8EB81FA3864CA15A7ABBA55A6 /* Pods-WSSRefresh_Example-Info.plist */,
+				98A3561CCB638DE4078EC2675D6530BB /* Pods-WSSRefresh_Example-umbrella.h */,
+				C79459E7BF1D15E1E31DF8BC42B78AD2 /* Pods-WSSRefresh_Example.debug.xcconfig */,
+				8D0EB133574C09C0498675C1B206418E /* Pods-WSSRefresh_Example.release.xcconfig */,
+			);
+			name = "Pods-WSSRefresh_Example";
+			path = "Target Support Files/Pods-WSSRefresh_Example";
+			sourceTree = "<group>";
+		};
+		A897018AE322F98B61F23287E505B93E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8849953297D456919D08069E9056DDD3 /* WSSRefresh.modulemap */,
+				6619D9664BE659DF52F678AEAADA5633 /* WSSRefresh.xcconfig */,
+				9DF16B70583C3104BC55EA169E878D5B /* WSSRefresh-dummy.m */,
+				847336D12FC08977B59F3CCE0E86983F /* WSSRefresh-Info.plist */,
+				C01FAA7C33E76B5ECC9ED2AC7BD8FEA8 /* WSSRefresh-prefix.pch */,
+				8CC8B78336E1FBE90136B8E2930B67F1 /* WSSRefresh-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WSSRefresh";
+			sourceTree = "<group>";
+		};
+		B22C8C528BC38219584E9506332D5FDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F8374B92B8BF87D82B32027CBC088 /* HorizontalRefresh.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5BA8C70E0745EC513C90829FFD7B8B3 /* Pods-WSSRefresh_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F39EC6649DFFC3A51CE4AD6CAEB187 /* Pods-WSSRefresh_Tests.modulemap */,
+				C1DF8FE5D89387B756F6986F83444BAF /* Pods-WSSRefresh_Tests-acknowledgements.markdown */,
+				3BB12637C233103ABF583DB9373C4E62 /* Pods-WSSRefresh_Tests-acknowledgements.plist */,
+				40F6072A282030185FF20F6081D5CF33 /* Pods-WSSRefresh_Tests-dummy.m */,
+				AFC87C49BBE56E6734A2BCAB8A1F7E0C /* Pods-WSSRefresh_Tests-Info.plist */,
+				3759CCC4BF623CEDBA9E8F485BE23EA6 /* Pods-WSSRefresh_Tests-umbrella.h */,
+				760F6A3940CE27ED589DE4B22803429A /* Pods-WSSRefresh_Tests.debug.xcconfig */,
+				B500F5F51D5A597F39519F2FE9C70225 /* Pods-WSSRefresh_Tests.release.xcconfig */,
+			);
+			name = "Pods-WSSRefresh_Tests";
+			path = "Target Support Files/Pods-WSSRefresh_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7329F029BDC3864A15A2B1A856B15F49 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				279CF41F3E6C6A2175107B6D2BE03FAA /* Products */,
+				45026F27DFB6E11EBA71A1961DD351D4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D157ED5ADE8D3204D81258325DA0D6B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E2A65CBD6659DCD129EC871E4CA17D8 /* VerticalRefresh.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECAFF48F3C7224C8608F1262F522AE1B /* HorizontalRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				5FB6FFAE9DED5594DB5FBC344DBC518C /* WSSHorizontalRefresh.h */,
+				F8DC6314450B765AB91815CA0EE3E789 /* WSSRefreshHorizontalAutoFooter.h */,
+				A2D0EDC79F9D8DB8A80A65B6512A7399 /* WSSRefreshHorizontalAutoFooter.m */,
+				94354C66FAC416E7AF1F113CA8F2B23C /* WSSRefreshHorizontalBackFooter.h */,
+				EBAC008173B3C4E56C411E9A3D548371 /* WSSRefreshHorizontalBackFooter.m */,
+				FF8CBA3B1A28FCE1D968F64B610ACDA0 /* WSSRefreshHorizontalHeader.h */,
+				70FECC2DDB16782602F58852351DAF06 /* WSSRefreshHorizontalHeader.m */,
+				B22C8C528BC38219584E9506332D5FDD /* Resources */,
+			);
+			name = HorizontalRefresh;
+			sourceTree = "<group>";
+		};
+		F51429750378D753318DEAE02C1C5FB1 /* VerticalRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1D99537ED7648080FB7014CC21A8D /* WSSRefreshAutoFooter.h */,
+				D6236DE3573B36262979BA5356E92038 /* WSSRefreshAutoFooter.m */,
+				C9A469559596D6D4CF505C8F9B2401E1 /* WSSRefreshBackFooter.h */,
+				C5283C3CAC34139615132308490A7064 /* WSSRefreshBackFooter.m */,
+				B9F2D659B3BF37639F391C924F6A4008 /* WSSRefreshHeader.h */,
+				BC69DC54AE37F53D9BFA82CC9B1F3CEB /* WSSRefreshHeader.m */,
+				9B1047C460F867703C24E2E336B04FCE /* WSSVerticalRefresh.h */,
+				D157ED5ADE8D3204D81258325DA0D6B3 /* Resources */,
+			);
+			name = VerticalRefresh;
+			sourceTree = "<group>";
+		};
+		F9D0183D4FA223EEAAAA2246CE4A8395 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC96C5CE10B859E9DB4643AA16A5C0 /* UIScrollView+WSSRefresh.h */,
+				2B9A8C67B775DB93C916F5A1B16CF67A /* UIScrollView+WSSRefresh.m */,
+				75CA5B2537E161C35F31AF963219DAB0 /* WSSRefresh.h */,
+				296C45E342B66B6D150DE490A269CA60 /* WSSRefreshAutoFooterControl.h */,
+				9BBF9D05713116E223710CDC21245E05 /* WSSRefreshAutoFooterControl.m */,
+				107C23239C85D30B1D29ECAD7C843D2B /* WSSRefreshBackFooterControl.h */,
+				8C4D56797D50D21A37BF92585CAE52B7 /* WSSRefreshBackFooterControl.m */,
+				42331FBA60D208B9A1437F22F6ABEAB7 /* WSSRefreshCategoties.h */,
+				2A8E5DF831BA252BB280FC9C245CCD4F /* WSSRefreshCategoties.m */,
+				46C1416CF4C7ADF7881C335304F60D5A /* WSSRefreshConst.h */,
+				0AAC4D15D536D279CC36BFF110ABE04C /* WSSRefreshConst.m */,
+				E90612AA7E06B8EF511487D9D4CC4006 /* WSSRefreshControl.h */,
+				D2FB814F106D25DBB17FA587C5EB0058 /* WSSRefreshControl.m */,
+				66440174C1903ECB6DAA0D654C41FD2B /* WSSRefreshHeaderControl.h */,
+				A9839E6B18B1E703D9181769B173ED82 /* WSSRefreshHeaderControl.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		112BE57131B99205EE503AC68F0EEE79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853A454D80000C011FF8A33059604F6C /* Pods-WSSRefresh_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBDCBC29DC983804C6BCEA38224C981 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C80F7476F45BAEA0B5DA6EF3D69C47E /* UIScrollView+WSSRefresh.h in Headers */,
+				6F107BA3DD9F32077FBD849B28E16F33 /* WSSHorizontalRefresh.h in Headers */,
+				8AF06B6C2AD48A04D00DB56A70BC10A2 /* WSSRefresh-umbrella.h in Headers */,
+				BB67EFDDAECC33ECB12B5C939C9A745E /* WSSRefresh.h in Headers */,
+				28FED9BC6F2421773E7925AF4688A460 /* WSSRefreshAutoFooter.h in Headers */,
+				C341D010095F4926F7B6956A484FFEC6 /* WSSRefreshAutoFooterControl.h in Headers */,
+				E451C773ED8D7578EC16050F6B00D2E1 /* WSSRefreshBackFooter.h in Headers */,
+				6D2BD6C7AAB974233FFFC945E4171878 /* WSSRefreshBackFooterControl.h in Headers */,
+				B6C976A601DBC2DDCF4E2BE0E3749EF0 /* WSSRefreshCategoties.h in Headers */,
+				3D05A8FF76C1B25FE045F6A2F75E3930 /* WSSRefreshConst.h in Headers */,
+				D6DE072413BF8528414F03D4DD56EB9A /* WSSRefreshControl.h in Headers */,
+				179CB8DA0AC3E8F2F2F37D41D3CF5FB8 /* WSSRefreshHeader.h in Headers */,
+				C1C1B8DA26C0316FB0A52268908B4E62 /* WSSRefreshHeaderControl.h in Headers */,
+				51338AC8CB96805BCBF14954CE1E62F2 /* WSSRefreshHorizontalAutoFooter.h in Headers */,
+				85BC197197EFBB8D2794C186B1FCDC4A /* WSSRefreshHorizontalBackFooter.h in Headers */,
+				BB0D135FF866BF6E03898415C34ACB6E /* WSSRefreshHorizontalHeader.h in Headers */,
+				F48534E7D62822B610BF21B872CF1289 /* WSSVerticalRefresh.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3612AF9300AFE43DA2C9858C64FD70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033B974A170865B34C4147BA6997BDDD /* Pods-WSSRefresh_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		712D4A726E4BA70AF342CFF4B5E2F1CA /* WSSRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AE861C81593DDCB647A6D7E83BDF93 /* Build configuration list for PBXNativeTarget "WSSRefresh" */;
+			buildPhases = (
+				5DBDCBC29DC983804C6BCEA38224C981 /* Headers */,
+				0DABEFB7F590085C18E34386FAEE1F82 /* Sources */,
+				0C6885A0C0C9EEA6FD13D1FDB0E653F6 /* Frameworks */,
+				0B7CB11D8DB0446D1E05A2A98D15A535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSSRefresh;
+			productName = WSSRefresh;
+			productReference = 3C3869651ED8158C02B62540273BFA39 /* WSSRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82AB66D87758645B34859919D510A969 /* Pods-WSSRefresh_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF05443ECD5FC53870939B8CB411BD0 /* Build configuration list for PBXNativeTarget "Pods-WSSRefresh_Example" */;
+			buildPhases = (
+				112BE57131B99205EE503AC68F0EEE79 /* Headers */,
+				9EE84D4B0F30E9E8345F0DEF9B4C2932 /* Sources */,
+				1F2E5AA0775E6327AA584EFA90ABFE5F /* Frameworks */,
+				E13D573E023A19CC3EFB6AF7EB2FA836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF72845F2C55C078140BBA14B82A30FB /* PBXTargetDependency */,
+			);
+			name = "Pods-WSSRefresh_Example";
+			productName = "Pods-WSSRefresh_Example";
+			productReference = 2E0560178A143CD8CE5C7309EFF46049 /* Pods_WSSRefresh_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F489494889617A8DA8B6F8270885292B /* Pods-WSSRefresh_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E499376034ECCEED741B615E67E4D5C7 /* Build configuration list for PBXNativeTarget "Pods-WSSRefresh_Tests" */;
+			buildPhases = (
+				CE3612AF9300AFE43DA2C9858C64FD70 /* Headers */,
+				2D106DC86349869D482F9A3627A6E62B /* Sources */,
+				C61BA07D75392448979348F6F8B81A0A /* Frameworks */,
+				7FB87A0091BEBCA7849AF28259F9A7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64E8FDEF54AD8073FA12F9F4E20A22EB /* PBXTargetDependency */,
+			);
+			name = "Pods-WSSRefresh_Tests";
+			productName = "Pods-WSSRefresh_Tests";
+			productReference = 2E3928E7719B25D0714CC10F9B6FBD85 /* Pods_WSSRefresh_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 279CF41F3E6C6A2175107B6D2BE03FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82AB66D87758645B34859919D510A969 /* Pods-WSSRefresh_Example */,
+				F489494889617A8DA8B6F8270885292B /* Pods-WSSRefresh_Tests */,
+				712D4A726E4BA70AF342CFF4B5E2F1CA /* WSSRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B7CB11D8DB0446D1E05A2A98D15A535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB0C0449FF2D614EACD7477422D69BA /* HorizontalRefresh.bundle in Resources */,
+				C8BB2F8947D05DF9139864D848312EA2 /* VerticalRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB87A0091BEBCA7849AF28259F9A7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13D573E023A19CC3EFB6AF7EB2FA836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DABEFB7F590085C18E34386FAEE1F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8E3630F4F62F184263AC405B5A351A /* UIScrollView+WSSRefresh.m in Sources */,
+				DFBF44F97E858247D9590D7208D6481E /* WSSRefresh-dummy.m in Sources */,
+				71B09BA61BEFB50E30021530E4F98613 /* WSSRefreshAutoFooter.m in Sources */,
+				B9946F007EAD37011D3D492CC03506A9 /* WSSRefreshAutoFooterControl.m in Sources */,
+				035F73FBB0DF0DC871202168E053E967 /* WSSRefreshBackFooter.m in Sources */,
+				0A5BA49A6C3C03DE4C4E9C52A72EA378 /* WSSRefreshBackFooterControl.m in Sources */,
+				E313F29CCAD21A822D5925EE03120C52 /* WSSRefreshCategoties.m in Sources */,
+				B5A4086A2D72292504DEA7AE360BEE4A /* WSSRefreshConst.m in Sources */,
+				CD6F1C44EFADD8E4DE41E42195FA6FF1 /* WSSRefreshControl.m in Sources */,
+				B0CCE2B70B2BD95861BDFB184FDA1651 /* WSSRefreshHeader.m in Sources */,
+				5D368A3450E154ADC6FBE3B56C31FAF0 /* WSSRefreshHeaderControl.m in Sources */,
+				0500864DFE54AAD05567A0C79F56750F /* WSSRefreshHorizontalAutoFooter.m in Sources */,
+				FC6B259F7FCCC7FCD859305D93D2021E /* WSSRefreshHorizontalBackFooter.m in Sources */,
+				BF630AB303EF893F434770D16209921E /* WSSRefreshHorizontalHeader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D106DC86349869D482F9A3627A6E62B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03263EA544B4DF38A24F11BA88CF33BC /* Pods-WSSRefresh_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE84D4B0F30E9E8345F0DEF9B4C2932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DDAC02F5749D6C71E4B61418355E20 /* Pods-WSSRefresh_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64E8FDEF54AD8073FA12F9F4E20A22EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WSSRefresh_Example";
+			target = 82AB66D87758645B34859919D510A969 /* Pods-WSSRefresh_Example */;
+			targetProxy = 0B2C5C8F304D50A2E83088C3D3A03CBA /* PBXContainerItemProxy */;
+		};
+		DF72845F2C55C078140BBA14B82A30FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WSSRefresh;
+			target = 712D4A726E4BA70AF342CFF4B5E2F1CA /* WSSRefresh */;
+			targetProxy = FA4E2B794983057481596004583C89C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00F6538E5D3BE6D232010F33D7D03632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C79459E7BF1D15E1E31DF8BC42B78AD2 /* Pods-WSSRefresh_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSSRefresh_Example/Pods-WSSRefresh_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSSRefresh_Example/Pods-WSSRefresh_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		06BAD333FF437C886FD3279F6243F6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6619D9664BE659DF52F678AEAADA5633 /* WSSRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WSSRefresh/WSSRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WSSRefresh/WSSRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WSSRefresh/WSSRefresh.modulemap";
+				PRODUCT_MODULE_NAME = WSSRefresh;
+				PRODUCT_NAME = WSSRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4C933ED365AA912ED10392583D3B132F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6619D9664BE659DF52F678AEAADA5633 /* WSSRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WSSRefresh/WSSRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WSSRefresh/WSSRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WSSRefresh/WSSRefresh.modulemap";
+				PRODUCT_MODULE_NAME = WSSRefresh;
+				PRODUCT_NAME = WSSRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6278A2C7887EAD408F123726687CF4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0EB133574C09C0498675C1B206418E /* Pods-WSSRefresh_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSSRefresh_Example/Pods-WSSRefresh_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSSRefresh_Example/Pods-WSSRefresh_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		763CD530F96A2DFDBD11093AB604D185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760F6A3940CE27ED589DE4B22803429A /* Pods-WSSRefresh_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSSRefresh_Tests/Pods-WSSRefresh_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSSRefresh_Tests/Pods-WSSRefresh_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9369EC0DE8EC2DAE97CDFFADB6072758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B500F5F51D5A597F39519F2FE9C70225 /* Pods-WSSRefresh_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSSRefresh_Tests/Pods-WSSRefresh_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSSRefresh_Tests/Pods-WSSRefresh_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EF05443ECD5FC53870939B8CB411BD0 /* Build configuration list for PBXNativeTarget "Pods-WSSRefresh_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F6538E5D3BE6D232010F33D7D03632 /* Debug */,
+				6278A2C7887EAD408F123726687CF4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54AE861C81593DDCB647A6D7E83BDF93 /* Build configuration list for PBXNativeTarget "WSSRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C933ED365AA912ED10392583D3B132F /* Debug */,
+				06BAD333FF437C886FD3279F6243F6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E499376034ECCEED741B615E67E4D5C7 /* Build configuration list for PBXNativeTarget "Pods-WSSRefresh_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763CD530F96A2DFDBD11093AB604D185 /* Debug */,
+				9369EC0DE8EC2DAE97CDFFADB6072758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

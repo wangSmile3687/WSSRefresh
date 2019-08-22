@@ -1,0 +1,6 @@
+framework module Pods_WSSRefresh_Example {
+  umbrella header "Pods-WSSRefresh_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
