@@ -1,12 +1,12 @@
 PODS:
-  - WSSRefresh (0.0.1):
-    - WSSRefresh/Base (= 0.0.1)
-    - WSSRefresh/HorizontalRefresh (= 0.0.1)
-    - WSSRefresh/VerticalRefresh (= 0.0.1)
-  - WSSRefresh/Base (0.0.1)
-  - WSSRefresh/HorizontalRefresh (0.0.1):
+  - WSSRefresh (0.0.2):
+    - WSSRefresh/Base (= 0.0.2)
+    - WSSRefresh/HorizontalRefresh (= 0.0.2)
+    - WSSRefresh/VerticalRefresh (= 0.0.2)
+  - WSSRefresh/Base (0.0.2)
+  - WSSRefresh/HorizontalRefresh (0.0.2):
     - WSSRefresh/Base
-  - WSSRefresh/VerticalRefresh (0.0.1):
+  - WSSRefresh/VerticalRefresh (0.0.2):
     - WSSRefresh/Base
 
 DEPENDENCIES:
@@ -17,8 +17,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WSSRefresh: dcd1c25cea03c49079df4f76ae76d906eed42a73
+  WSSRefresh: 90c11b5cb9964cd5f76d4dea1fea1f00d674310e
 
-PODFILE CHECKSUM: c9643f3b3d3ca0a7966ecfd0d02eac2f6a59ffd9
+PODFILE CHECKSUM: 8286f909a237dea81485976dbcacfbe938253180
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.8.3

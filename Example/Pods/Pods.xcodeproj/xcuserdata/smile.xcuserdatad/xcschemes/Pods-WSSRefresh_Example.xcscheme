@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "82AB66D87758645B34859919D510A969"
-               BuildableName = "Pods-WSSRefresh_Example.framework"
+               BuildableName = "libPods-WSSRefresh_Example.a"
                BlueprintName = "Pods-WSSRefresh_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

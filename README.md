@@ -19,7 +19,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'WSSRefresh'
 ```
-
+```
 使用说明：
 
 1.pod  'WSSRefresh/VerticalRefresh'  上下刷新 
@@ -30,7 +30,6 @@ pod 'WSSRefresh'
 
 4.刷新方式
 self.tableView.ws_refreshHeader = [WSSRefreshHeader headerWithRefreshingTarget:self refreshingAction:@selector(getData)];
-
 self.tableView.ws_refreshHeader = [WSSRefreshHeader headerWithRefreshingBlock:{
 // do something
 }];
@@ -44,11 +43,11 @@ self.tableView.ws_refreshHeader = header;
 [strongSelf.collectionView.ws_refreshAutoFooter endRefreshingWithAlerText:@"嘿嘿嘿嘿嘿" withTextColor:[UIColor blueColor] CompletionBlock:{
 // do something
 }];
-
+```
 
 ## Author
 
-wangsi,18566663687@163.com
+wangsi,17601013687@163.com
 
 ## License
 

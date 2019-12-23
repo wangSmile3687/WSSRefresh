@@ -1,0 +1,1 @@
+../../../../../WSSRefresh/Classes/VerticalRefresh/WSSRefreshAutoFooter.h
